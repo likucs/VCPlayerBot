@@ -418,5 +418,5 @@ async def not_chat(_, m: Message):
                 InlineKeyboardButton('🧩 Join Here', url='https://t.me/cs_cloud'),
             ]
             ]
-        k=await m.reply_photo(photo="https://telegra.ph/file/877c100bff4d0580e2065.jpg", caption="**Sorry, You Can't Use This Bot In This Group! 🤷‍♂️ But You Can Make Your Own Bot Like This From The [Source Code](https://github.com/VCPlayerBot) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons))
+        k=await m.reply_photo(photo="https://telegra.ph/file/8bef4348f501eddd3f6a0.jpg", caption="**Sorry, You Can't Use This Bot In This Group! 🤷‍♂️ But You Can Make Your Own Bot Like This From The [Source Code](https://github.com/VCPlayerBot) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons))
     await mp.delete(m)
